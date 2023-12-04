@@ -27,7 +27,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_storage_account" "storage" {
-  name                     = "terraformstgacccnt01"
+  name                     = "terraformstgacccnt164"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"

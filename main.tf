@@ -16,8 +16,8 @@ terraform{
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "terra-rg01"
-  location = "East US"
+  name     = "811-287b57dc-provide-continuous-delivery-with-gith"
+  location = "West US"
 }
 
 provider "azurerm" {
